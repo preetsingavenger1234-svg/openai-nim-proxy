@@ -12,7 +12,7 @@ app.use(express.json());
 
 // NVIDIA NIM API configuration
 const NIM_API_BASE = process.env.NIM_API_BASE || 'https://integrate.api.nvidia.com/v1';
-const NIM_API_KEY = process.env.NIM_API_KEY || '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';
+const NIM_API_KEY = process.env.NIM_API_KEY || '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';
 
 // 🔥 REASONING DISPLAY TOGGLE - Shows/hides reasoning in output
 const SHOW_REASONING = false; // Set to true to show reasoning with <think> tags
